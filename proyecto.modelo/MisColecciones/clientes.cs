@@ -12,7 +12,7 @@ namespace proyecto.modelo.MisColecciones
 {
 
     [BsonIgnoreExtraElements]
-    class clientes
+    public class clientes
     {
         [BsonId]
         public ObjectId id{ get; set; }
