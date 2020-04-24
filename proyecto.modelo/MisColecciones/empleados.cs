@@ -17,7 +17,7 @@ namespace proyecto.modelo.MisColecciones
         public class empleados
         {
             [BsonId]
-            public ObjectId id { get; set; }
+            public int id { get; set; }
 
             [BsonElement("nombre")]
             public string nombre { get; set; }

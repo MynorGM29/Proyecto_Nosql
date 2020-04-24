@@ -15,7 +15,7 @@ namespace proyecto.modelo.MisColecciones
     {
 
         [BsonId]
-        public ObjectId id { get; set; }
+        public int id { get; set; }
 
         [BsonElement("marca")]
         public string marca { get; set; }
